@@ -76,6 +76,7 @@
 #include "weave_md1_mem.h" //validation, could be taken out...
 #include "zsim.h"
 
+#include "ship_repl.h"
 extern void EndOfPhaseActions(); //in zsim.cpp
 
 /* zsim should be initialized in a deterministic and logical order, to avoid re-reading config vars
@@ -171,6 +172,9 @@ BaseCache* BuildCacheBank(Config& config, const string& prefix, g_string& name, 
         assert(isPow2(rpvMax + 1));
         // add your SRRIP construction code here
         rp = new SRRIPReplPolicy(numLines, rpvMax);
+    } else if (replType == "SHiP") {
+        rp = new SHiPReplPolicy(numLines);
+        
 
     } else if (replType == "WayPart" || replType == "Vantage" || replType == "IdealLRUPart") {
         if (replType == "WayPart" && arrayType != "SetAssoc") panic("WayPart replacement requires SetAssoc array");
