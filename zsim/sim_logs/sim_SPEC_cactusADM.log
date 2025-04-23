@@ -1,0 +1,1 @@
+./build/opt/zsim configs/project/SHiP/cactusADM.cfg > outputs/project/SHiP/cactusADM/cactusADM.log 2>&1

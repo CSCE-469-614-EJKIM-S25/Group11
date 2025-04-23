@@ -1,0 +1,1 @@
+./build/opt/zsim configs/project/SHiP/gcc.cfg > outputs/project/SHiP/gcc/gcc.log 2>&1

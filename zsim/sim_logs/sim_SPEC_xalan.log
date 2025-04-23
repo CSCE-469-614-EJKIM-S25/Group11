@@ -1,0 +1,1 @@
+./build/opt/zsim configs/project/SHiP/xalan.cfg > outputs/project/SHiP/xalan/xalan.log 2>&1

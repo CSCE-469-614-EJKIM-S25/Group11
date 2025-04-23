@@ -1,0 +1,1 @@
+./build/opt/zsim configs/project/SHiP/mcf.cfg > outputs/project/SHiP/mcf/mcf.log 2>&1

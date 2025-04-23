@@ -1,4 +1,6 @@
 #!/bin/bash
 
-cp -r ../hw4/LRU/ .
-sed -i 's/LRU/SHiP/g' *.cfg
+mkdir SHIP
+cp ../hw4/LRU/* ./SHIP/
+cd SHIP/
+sed -i 's/LRU/SHIP/g' *.cfg

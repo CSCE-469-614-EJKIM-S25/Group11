@@ -1,0 +1,121 @@
+scons: Reading SConscript files ...
+Building opt zsim at build/opt
+/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/zsim/build/opt/../../misc/list_syscalls.py:6: SyntaxWarning: invalid escape sequence '\d'
+  sysList = [(int(numStr), name) for (name, numStr) in re.findall("#define __NR_(.*?) (\d+)", syscallDefs)]
+scons: done reading SConscript files.
+scons: Building targets ...
+g++ -o build/opt/virt/timeout.os -c -fPIC -march=core2 -g -O3 -funroll-loops -g -std=c++0x -Wall -Wno-unknown-pragmas -Wno-deprecated -Wno-unused-function -Wno-catch-value -fomit-frame-pointer -fno-stack-protector -MMD -DBIGARRAY_MULTIPLIER=1 -DUSING_XED -DTARGET_IA32E -DHOST_IA32E -fPIC -DTARGET_LINUX -fabi-version=2 -D_GLIBCXX_USE_CXX11_ABI=0 -DPIN_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/intel64/bin/pinbin" -DZSIM_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/zsim/build/opt/libzsim.so" -DMT_SAFE_LOG -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/xed-intel64/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin/gen -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/components/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/local/include -Ibuild/opt build/opt/virt/timeout.cpp
+Creating 'build/opt/virt/syscall_name.cpp'
+g++ -o build/opt/parse_vdso.os -c -fPIC -march=core2 -g -O3 -funroll-loops -g -std=c++0x -Wall -Wno-unknown-pragmas -Wno-deprecated -Wno-unused-function -Wno-catch-value -fomit-frame-pointer -fno-stack-protector -MMD -DBIGARRAY_MULTIPLIER=1 -DUSING_XED -DTARGET_IA32E -DHOST_IA32E -fPIC -DTARGET_LINUX -fabi-version=2 -D_GLIBCXX_USE_CXX11_ABI=0 -DPIN_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/intel64/bin/pinbin" -DZSIM_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/zsim/build/opt/libzsim.so" -DMT_SAFE_LOG -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/xed-intel64/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin/gen -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/components/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/local/include -Ibuild/opt build/opt/parse_vdso.cpp
+g++ -o build/opt/virt/syscall_name.os -c -fPIC -march=core2 -g -O3 -funroll-loops -g -std=c++0x -Wall -Wno-unknown-pragmas -Wno-deprecated -Wno-unused-function -Wno-catch-value -fomit-frame-pointer -fno-stack-protector -MMD -DBIGARRAY_MULTIPLIER=1 -DUSING_XED -DTARGET_IA32E -DHOST_IA32E -fPIC -DTARGET_LINUX -fabi-version=2 -D_GLIBCXX_USE_CXX11_ABI=0 -DPIN_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/intel64/bin/pinbin" -DZSIM_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/zsim/build/opt/libzsim.so" -DMT_SAFE_LOG -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/xed-intel64/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin/gen -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/components/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/local/include -Ibuild/opt build/opt/virt/syscall_name.cpp
+g++ -o build/opt/process_tree.os -c -fPIC -march=core2 -g -O3 -funroll-loops -g -std=c++0x -Wall -Wno-unknown-pragmas -Wno-deprecated -Wno-unused-function -Wno-catch-value -fomit-frame-pointer -fno-stack-protector -MMD -DBIGARRAY_MULTIPLIER=1 -DUSING_XED -DTARGET_IA32E -DHOST_IA32E -fPIC -DTARGET_LINUX -fabi-version=2 -D_GLIBCXX_USE_CXX11_ABI=0 -DPIN_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/intel64/bin/pinbin" -DZSIM_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/zsim/build/opt/libzsim.so" -DMT_SAFE_LOG -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/xed-intel64/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin/gen -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/components/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/local/include -Ibuild/opt build/opt/process_tree.cpp
+g++ -o build/opt/process_stats.os -c -fPIC -march=core2 -g -O3 -funroll-loops -g -std=c++0x -Wall -Wno-unknown-pragmas -Wno-deprecated -Wno-unused-function -Wno-catch-value -fomit-frame-pointer -fno-stack-protector -MMD -DBIGARRAY_MULTIPLIER=1 -DUSING_XED -DTARGET_IA32E -DHOST_IA32E -fPIC -DTARGET_LINUX -fabi-version=2 -D_GLIBCXX_USE_CXX11_ABI=0 -DPIN_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/intel64/bin/pinbin" -DZSIM_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/zsim/build/opt/libzsim.so" -DMT_SAFE_LOG -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/xed-intel64/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin/gen -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/components/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/local/include -Ibuild/opt build/opt/process_stats.cpp
+g++ -o build/opt/timing_core.os -c -fPIC -march=core2 -g -O3 -funroll-loops -g -std=c++0x -Wall -Wno-unknown-pragmas -Wno-deprecated -Wno-unused-function -Wno-catch-value -fomit-frame-pointer -fno-stack-protector -MMD -DBIGARRAY_MULTIPLIER=1 -DUSING_XED -DTARGET_IA32E -DHOST_IA32E -fPIC -DTARGET_LINUX -fabi-version=2 -D_GLIBCXX_USE_CXX11_ABI=0 -DPIN_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/intel64/bin/pinbin" -DZSIM_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/zsim/build/opt/libzsim.so" -DMT_SAFE_LOG -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/xed-intel64/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin/gen -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/components/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/local/include -Ibuild/opt build/opt/timing_core.cpp
+g++ -o build/opt/ooo_core.os -c -fPIC -march=core2 -g -O3 -funroll-loops -g -std=c++0x -Wall -Wno-unknown-pragmas -Wno-deprecated -Wno-unused-function -Wno-catch-value -fomit-frame-pointer -fno-stack-protector -MMD -DBIGARRAY_MULTIPLIER=1 -DUSING_XED -DTARGET_IA32E -DHOST_IA32E -fPIC -DTARGET_LINUX -fabi-version=2 -D_GLIBCXX_USE_CXX11_ABI=0 -DPIN_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/intel64/bin/pinbin" -DZSIM_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/zsim/build/opt/libzsim.so" -DMT_SAFE_LOG -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/xed-intel64/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin/gen -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/components/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/local/include -Ibuild/opt build/opt/ooo_core.cpp
+g++ -o build/opt/virt/time.os -c -fPIC -march=core2 -g -O3 -funroll-loops -g -std=c++0x -Wall -Wno-unknown-pragmas -Wno-deprecated -Wno-unused-function -Wno-catch-value -fomit-frame-pointer -fno-stack-protector -MMD -DBIGARRAY_MULTIPLIER=1 -DUSING_XED -DTARGET_IA32E -DHOST_IA32E -fPIC -DTARGET_LINUX -fabi-version=2 -D_GLIBCXX_USE_CXX11_ABI=0 -DPIN_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/intel64/bin/pinbin" -DZSIM_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/zsim/build/opt/libzsim.so" -DMT_SAFE_LOG -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/xed-intel64/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin/gen -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/components/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/local/include -Ibuild/opt build/opt/virt/time.cpp
+g++ -o build/opt/zsim.os -c -fPIC -march=core2 -g -O3 -funroll-loops -g -std=c++0x -Wall -Wno-unknown-pragmas -Wno-deprecated -Wno-unused-function -Wno-catch-value -fomit-frame-pointer -fno-stack-protector -MMD -DBIGARRAY_MULTIPLIER=1 -DUSING_XED -DTARGET_IA32E -DHOST_IA32E -fPIC -DTARGET_LINUX -fabi-version=2 -D_GLIBCXX_USE_CXX11_ABI=0 -DPIN_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/intel64/bin/pinbin" -DZSIM_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/zsim/build/opt/libzsim.so" -DMT_SAFE_LOG -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/xed-intel64/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin/gen -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/components/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/local/include -Ibuild/opt build/opt/zsim.cpp
+g++ -o build/opt/stats_filter.os -c -fPIC -march=core2 -g -O3 -funroll-loops -g -std=c++0x -Wall -Wno-unknown-pragmas -Wno-deprecated -Wno-unused-function -Wno-catch-value -fomit-frame-pointer -fno-stack-protector -MMD -DBIGARRAY_MULTIPLIER=1 -DUSING_XED -DTARGET_IA32E -DHOST_IA32E -fPIC -DTARGET_LINUX -fabi-version=2 -D_GLIBCXX_USE_CXX11_ABI=0 -DPIN_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/intel64/bin/pinbin" -DZSIM_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/zsim/build/opt/libzsim.so" -DMT_SAFE_LOG -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/xed-intel64/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin/gen -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/components/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/local/include -Ibuild/opt build/opt/stats_filter.cpp
+g++ -o build/opt/memory_hierarchy.os -c -fPIC -march=core2 -g -O3 -funroll-loops -g -std=c++0x -Wall -Wno-unknown-pragmas -Wno-deprecated -Wno-unused-function -Wno-catch-value -fomit-frame-pointer -fno-stack-protector -MMD -DBIGARRAY_MULTIPLIER=1 -DUSING_XED -DTARGET_IA32E -DHOST_IA32E -fPIC -DTARGET_LINUX -fabi-version=2 -D_GLIBCXX_USE_CXX11_ABI=0 -DPIN_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/intel64/bin/pinbin" -DZSIM_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/zsim/build/opt/libzsim.so" -DMT_SAFE_LOG -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/xed-intel64/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin/gen -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/components/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/local/include -Ibuild/opt build/opt/memory_hierarchy.cpp
+g++ -o build/opt/network.os -c -fPIC -march=core2 -g -O3 -funroll-loops -g -std=c++0x -Wall -Wno-unknown-pragmas -Wno-deprecated -Wno-unused-function -Wno-catch-value -fomit-frame-pointer -fno-stack-protector -MMD -DBIGARRAY_MULTIPLIER=1 -DUSING_XED -DTARGET_IA32E -DHOST_IA32E -fPIC -DTARGET_LINUX -fabi-version=2 -D_GLIBCXX_USE_CXX11_ABI=0 -DPIN_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/intel64/bin/pinbin" -DZSIM_PATH="/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/zsim/build/opt/libzsim.so" -DMT_SAFE_LOG -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/xed-intel64/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/source/include/pin/gen -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/pin-2.14-71313-gcc.4.4.7-linux/extras/components/include -I/home/Arieldynamic/Documents/TAMU_files/csce-469/casim-csce614/tools/local/include -Ibuild/opt build/opt/network.cpp
+In file included from build/opt/network.cpp:26:
+build/opt/network.h:40:41: error: ‘uint32_t’ was not declared in this scope
+   40 |         std::unordered_map<std::string, uint32_t> delayMap;
+      |                                         ^~~~~~~~
+build/opt/network.h:37:1: note: ‘uint32_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+   36 | #include <unordered_map>
+  +++ |+#include <cstdint>
+   37 | 
+build/opt/network.h:40:49: error: template argument 2 is invalid
+   40 |         std::unordered_map<std::string, uint32_t> delayMap;
+      |                                                 ^
+build/opt/network.h:40:49: error: template argument 5 is invalid
+build/opt/network.h:44:9: error: ‘uint32_t’ does not name a type
+   44 |         uint32_t getRTT(const char* src, const char* dst);
+      |         ^~~~~~~~
+build/opt/network.h:44:9: note: ‘uint32_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+build/opt/network.cpp: In constructor ‘Network::Network(const char*)’:
+build/opt/network.cpp:43:9: error: ‘uint32_t’ was not declared in this scope
+   43 |         uint32_t delay;
+      |         ^~~~~~~~
+build/opt/network.cpp:30:1: note: ‘uint32_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+   29 | #include "log.h"
+  +++ |+#include <cstdint>
+   30 | 
+build/opt/network.cpp:46:19: error: ‘delay’ was not declared in this scope; did you mean ‘delayMap’?
+   46 |         inFile >> delay;
+      |                   ^~~~~
+      |                   delayMap
+In file included from build/opt/network.cpp:29:
+build/opt/network.cpp:53:26: error: request for member ‘find’ in ‘((Network*)this)->Network::delayMap’, which is of non-class type ‘int’
+   53 |         assert((delayMap.find(s1) == delayMap.end()));
+      |                          ^~~~
+build/opt/log.h:50:43: note: in definition of macro ‘unlikely’
+   50 | #define unlikely(x)     __builtin_expect((x), 0)
+      |                                           ^
+build/opt/network.cpp:53:9: note: in expansion of macro ‘assert’
+   53 |         assert((delayMap.find(s1) == delayMap.end()));
+      |         ^~~~~~
+build/opt/network.cpp:53:47: error: request for member ‘end’ in ‘((Network*)this)->Network::delayMap’, which is of non-class type ‘int’
+   53 |         assert((delayMap.find(s1) == delayMap.end()));
+      |                                               ^~~
+build/opt/log.h:50:43: note: in definition of macro ‘unlikely’
+   50 | #define unlikely(x)     __builtin_expect((x), 0)
+      |                                           ^
+build/opt/network.cpp:53:9: note: in expansion of macro ‘assert’
+   53 |         assert((delayMap.find(s1) == delayMap.end()));
+      |         ^~~~~~
+build/opt/network.cpp:53:26: error: request for member ‘find’ in ‘((Network*)this)->Network::delayMap’, which is of non-class type ‘int’
+   53 |         assert((delayMap.find(s1) == delayMap.end()));
+      |                          ^~~~
+build/opt/log.h:181:43: note: in definition of macro ‘assert’
+  181 |         (PrintExpr(__assert_ss__LINE__)->*expr);       \
+      |                                           ^~~~
+build/opt/network.cpp:53:47: error: request for member ‘end’ in ‘((Network*)this)->Network::delayMap’, which is of non-class type ‘int’
+   53 |         assert((delayMap.find(s1) == delayMap.end()));
+      |                                               ^~~
+build/opt/log.h:181:43: note: in definition of macro ‘assert’
+  181 |         (PrintExpr(__assert_ss__LINE__)->*expr);       \
+      |                                           ^~~~
+build/opt/network.cpp:54:26: error: request for member ‘find’ in ‘((Network*)this)->Network::delayMap’, which is of non-class type ‘int’
+   54 |         assert((delayMap.find(s2) == delayMap.end()));
+      |                          ^~~~
+build/opt/log.h:50:43: note: in definition of macro ‘unlikely’
+   50 | #define unlikely(x)     __builtin_expect((x), 0)
+      |                                           ^
+build/opt/network.cpp:54:9: note: in expansion of macro ‘assert’
+   54 |         assert((delayMap.find(s2) == delayMap.end()));
+      |         ^~~~~~
+build/opt/network.cpp:54:47: error: request for member ‘end’ in ‘((Network*)this)->Network::delayMap’, which is of non-class type ‘int’
+   54 |         assert((delayMap.find(s2) == delayMap.end()));
+      |                                               ^~~
+build/opt/log.h:50:43: note: in definition of macro ‘unlikely’
+   50 | #define unlikely(x)     __builtin_expect((x), 0)
+      |                                           ^
+build/opt/network.cpp:54:9: note: in expansion of macro ‘assert’
+   54 |         assert((delayMap.find(s2) == delayMap.end()));
+      |         ^~~~~~
+build/opt/network.cpp:54:26: error: request for member ‘find’ in ‘((Network*)this)->Network::delayMap’, which is of non-class type ‘int’
+   54 |         assert((delayMap.find(s2) == delayMap.end()));
+      |                          ^~~~
+build/opt/log.h:181:43: note: in definition of macro ‘assert’
+  181 |         (PrintExpr(__assert_ss__LINE__)->*expr);       \
+      |                                           ^~~~
+build/opt/network.cpp:54:47: error: request for member ‘end’ in ‘((Network*)this)->Network::delayMap’, which is of non-class type ‘int’
+   54 |         assert((delayMap.find(s2) == delayMap.end()));
+      |                                               ^~~
+build/opt/log.h:181:43: note: in definition of macro ‘assert’
+  181 |         (PrintExpr(__assert_ss__LINE__)->*expr);       \
+      |                                           ^~~~
+build/opt/network.cpp:56:17: error: no match for ‘operator[]’ (operand types are ‘int’ and ‘std::string’ {aka ‘std::basic_string<char>’})
+   56 |         delayMap[s1] = delay;
+      |                 ^
+build/opt/network.cpp:57:17: error: no match for ‘operator[]’ (operand types are ‘int’ and ‘std::string’ {aka ‘std::basic_string<char>’})
+   57 |         delayMap[s2] = delay;
+      |                 ^
+build/opt/network.cpp: At global scope:
+build/opt/network.cpp:65:1: error: ‘uint32_t’ does not name a type
+   65 | uint32_t Network::getRTT(const char* src, const char* dst) {
+      | ^~~~~~~~
+build/opt/network.cpp:65:1: note: ‘uint32_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+scons: *** [build/opt/network.os] Error 1
+scons: building terminated because of errors.

@@ -1,0 +1,64 @@
+[2025-04-20 17:31:06] Running command: ./hw4runscript SPEC bzip2 LFU
+[2025-04-20 17:31:06] Launched simulation SPEC bzip2 with PID 240188
+[2025-04-20 17:31:06] Running command: ./hw4runscript SPEC gcc LFU
+[2025-04-20 17:31:06] Launched simulation SPEC gcc with PID 240189
+[2025-04-20 17:31:06] Running command: ./hw4runscript SPEC mcf LFU
+[2025-04-20 17:31:06] Launched simulation SPEC mcf with PID 240190
+[2025-04-20 17:31:06] Running command: ./hw4runscript SPEC hmmer LFU
+[2025-04-20 17:31:06] Launched simulation SPEC hmmer with PID 240191
+[2025-04-20 17:31:06] Running command: ./hw4runscript SPEC sjeng LFU
+[2025-04-20 17:31:06] Launched simulation SPEC sjeng with PID 240192
+[2025-04-20 17:31:06] Running command: ./hw4runscript SPEC libquantum LFU
+[2025-04-20 17:31:06] Launched simulation SPEC libquantum with PID 240193
+[2025-04-20 17:31:06] Running command: ./hw4runscript SPEC xalan LFU
+[2025-04-20 17:31:06] Launched simulation SPEC xalan with PID 240194
+[2025-04-20 17:31:29] Simulation with PID 240188 completed. Exit code: 0
+[2025-04-20 17:31:29] Running command: ./hw4runscript SPEC milc LFU
+[2025-04-20 17:31:29] Launched simulation SPEC milc with PID 240493
+[2025-04-20 17:31:29] Simulation with PID 240493 completed. Exit code: 112
+[2025-04-20 17:31:29] Running command: ./hw4runscript SPEC cactusADM LFU
+[2025-04-20 17:31:29] Launched simulation SPEC cactusADM with PID 240497
+[2025-04-20 17:34:15] Simulation with PID 240190 completed. Exit code: 0
+[2025-04-20 17:34:15] Running command: ./hw4runscript SPEC leslie3d LFU
+[2025-04-20 17:34:15] Launched simulation SPEC leslie3d with PID 241842
+[2025-04-20 17:34:15] Simulation with PID 241842 completed. Exit code: 112
+[2025-04-20 17:34:15] Running command: ./hw4runscript SPEC namd LFU
+[2025-04-20 17:34:15] Launched simulation SPEC namd with PID 241846
+[2025-04-20 17:34:21] Simulation with PID 241846 completed. Exit code: 0
+[2025-04-20 17:34:21] Running command: ./hw4runscript SPEC soplex LFU
+[2025-04-20 17:34:21] Launched simulation SPEC soplex with PID 241895
+[2025-04-20 17:35:05] Simulation with PID 240189 completed. Exit code: 0
+[2025-04-20 17:35:05] Running command: ./hw4runscript SPEC calculix LFU
+[2025-04-20 17:35:05] Launched simulation SPEC calculix with PID 242270
+[2025-04-20 17:45:19] Simulation with PID 241895 completed. Exit code: 0
+[2025-04-20 17:45:19] Running command: ./hw4runscript SPEC lbm LFU
+[2025-04-20 17:45:19] Launched simulation SPEC lbm with PID 247246
+[2025-04-20 17:47:43] Simulation with PID 240192 completed. Exit code: 0
+[2025-04-20 17:47:43] Running command: ./hw4runscript PARSEC blackscholes LFU
+[2025-04-20 17:47:43] Launched simulation PARSEC blackscholes with PID 248424
+[2025-04-20 17:48:15] Simulation with PID 248424 completed. Exit code: 0
+[2025-04-20 17:48:15] Running command: ./hw4runscript PARSEC bodytrack LFU
+[2025-04-20 17:48:15] Launched simulation PARSEC bodytrack with PID 248700
+[2025-04-20 17:49:29] Simulation with PID 248700 completed. Exit code: 0
+[2025-04-20 17:49:29] Running command: ./hw4runscript PARSEC canneal LFU
+[2025-04-20 17:49:29] Launched simulation PARSEC canneal with PID 249325
+[2025-04-20 17:50:20] Simulation with PID 249325 completed. Exit code: 0
+[2025-04-20 17:50:20] Running command: ./hw4runscript PARSEC fluidanimate LFU
+[2025-04-20 17:50:20] Launched simulation PARSEC fluidanimate with PID 249753
+[2025-04-20 17:50:43] Simulation with PID 247246 completed. Exit code: 0
+[2025-04-20 17:50:43] Running command: ./hw4runscript PARSEC streamcluster LFU
+[2025-04-20 17:50:43] Launched simulation PARSEC streamcluster with PID 249959
+[2025-04-20 17:51:04] Simulation with PID 249753 completed. Exit code: 0
+[2025-04-20 17:51:04] Running command: ./hw4runscript PARSEC swaptions LFU
+[2025-04-20 17:51:04] Launched simulation PARSEC swaptions with PID 250145
+[2025-04-20 17:51:10] Simulation with PID 240194 completed. Exit code: 0
+[2025-04-20 17:51:10] Running command: ./hw4runscript PARSEC x264 LFU
+[2025-04-20 17:51:10] Launched simulation PARSEC x264 with PID 250210
+[2025-04-20 17:51:51] Simulation with PID 250145 completed. Exit code: 0
+[2025-04-20 17:51:58] Simulation with PID 249959 completed. Exit code: 0
+[2025-04-20 17:53:37] Simulation with PID 250210 completed. Exit code: 0
+[2025-04-20 17:54:01] Simulation with PID 240191 completed. Exit code: 0
+[2025-04-20 17:55:52] Simulation with PID 240497 completed. Exit code: 0
+[2025-04-20 17:58:25] Simulation with PID 240193 completed. Exit code: 0
+[2025-04-20 18:01:10] Simulation with PID 242270 completed. Exit code: 0
+[2025-04-20 18:01:10] All simulations finished successfully!

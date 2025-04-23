@@ -1,0 +1,1 @@
+./build/opt/zsim configs/project/SHiP/streamcluster_8c_simlarge.cfg > outputs/project/SHiP/streamcluster_8c_simlarge/streamcluster.log 2>&1

@@ -1,0 +1,1 @@
+./build/opt/zsim configs/project/SHiP/namd.cfg > outputs/project/SHiP/namd/namd.log 2>&1

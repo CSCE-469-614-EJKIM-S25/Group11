@@ -1,0 +1,1 @@
+./build/opt/zsim configs/project/SHiP/swaptions_8c_simlarge.cfg > outputs/project/SHiP/swaptions_8c_simlarge/swaptions.log 2>&1

@@ -1,0 +1,1 @@
+./build/opt/zsim configs/project/SHiP/soplex.cfg > outputs/project/SHiP/soplex/soplex.log 2>&1

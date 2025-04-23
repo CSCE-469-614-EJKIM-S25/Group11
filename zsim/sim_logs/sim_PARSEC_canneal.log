@@ -1,0 +1,1 @@
+./build/opt/zsim configs/project/SHiP/canneal_8c_simlarge.cfg > outputs/project/SHiP/canneal_8c_simlarge/canneal.log 2>&1

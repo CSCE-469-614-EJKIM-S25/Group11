@@ -1,0 +1,70 @@
+[2025-04-20 12:39:22] Running command: ./hw4runscript SPEC bzip2 SHiP
+[2025-04-20 12:39:22] Launched simulation SPEC bzip2 with PID 43075
+[2025-04-20 12:39:22] Running command: ./hw4runscript SPEC gcc SHiP
+[2025-04-20 12:39:22] Launched simulation SPEC gcc with PID 43076
+[2025-04-20 12:39:22] Running command: ./hw4runscript SPEC mcf SHiP
+[2025-04-20 12:39:22] Launched simulation SPEC mcf with PID 43077
+[2025-04-20 12:39:22] Running command: ./hw4runscript SPEC hmmer SHiP
+[2025-04-20 12:39:22] Launched simulation SPEC hmmer with PID 43078
+[2025-04-20 12:39:22] Running command: ./hw4runscript SPEC sjeng SHiP
+[2025-04-20 12:39:22] Launched simulation SPEC sjeng with PID 43079
+[2025-04-20 12:39:22] Running command: ./hw4runscript SPEC libquantum SHiP
+[2025-04-20 12:39:22] Launched simulation SPEC libquantum with PID 43080
+[2025-04-20 12:39:22] Running command: ./hw4runscript SPEC xalan SHiP
+[2025-04-20 12:39:22] Launched simulation SPEC xalan with PID 43081
+[2025-04-20 12:39:22] Running command: ./hw4runscript SPEC milc SHiP
+[2025-04-20 12:39:22] Launched simulation SPEC milc with PID 43082
+[2025-04-20 12:39:22] Running command: ./hw4runscript SPEC cactusADM SHiP
+[2025-04-20 12:39:22] Launched simulation SPEC cactusADM with PID 43083
+[2025-04-20 12:39:22] Running command: ./hw4runscript SPEC leslie3d SHiP
+[2025-04-20 12:39:22] Launched simulation SPEC leslie3d with PID 43084
+[2025-04-20 12:39:22] Running command: ./hw4runscript SPEC namd SHiP
+[2025-04-20 12:39:22] Launched simulation SPEC namd with PID 43085
+[2025-04-20 12:39:22] Running command: ./hw4runscript SPEC soplex SHiP
+[2025-04-20 12:39:22] Launched simulation SPEC soplex with PID 43086
+[2025-04-20 12:39:22] Running command: ./hw4runscript SPEC calculix SHiP
+[2025-04-20 12:39:22] Launched simulation SPEC calculix with PID 43087
+[2025-04-20 12:39:22] Running command: ./hw4runscript SPEC lbm SHiP
+[2025-04-20 12:39:22] Launched simulation SPEC lbm with PID 43088
+[2025-04-20 12:39:22] Simulation with PID 43084 completed. Exit code: 112
+[2025-04-20 12:39:22] Running command: ./hw4runscript PARSEC blackscholes SHiP
+[2025-04-20 12:39:22] Launched simulation PARSEC blackscholes with PID 43131
+[2025-04-20 12:39:22] Simulation with PID 43082 completed. Exit code: 112
+[2025-04-20 12:39:22] Running command: ./hw4runscript PARSEC bodytrack SHiP
+[2025-04-20 12:39:22] Launched simulation PARSEC bodytrack with PID 43132
+[2025-04-20 12:39:30] Simulation with PID 43085 completed. Exit code: 0
+[2025-04-20 12:39:30] Running command: ./hw4runscript PARSEC canneal SHiP
+[2025-04-20 12:39:30] Launched simulation PARSEC canneal with PID 43301
+[2025-04-20 12:39:51] Simulation with PID 43075 completed. Exit code: 0
+[2025-04-20 12:39:51] Running command: ./hw4runscript PARSEC dedup SHiP
+[2025-04-20 12:39:51] Launched simulation PARSEC dedup with PID 43529
+[2025-04-20 12:39:52] Simulation with PID 43529 completed. Exit code: 0
+[2025-04-20 12:39:52] Running command: ./hw4runscript PARSEC fluidanimate SHiP
+[2025-04-20 12:39:52] Launched simulation PARSEC fluidanimate with PID 43538
+[2025-04-20 12:40:28] Simulation with PID 43131 completed. Exit code: 0
+[2025-04-20 12:40:28] Running command: ./hw4runscript PARSEC freqmine SHiP
+[2025-04-20 12:40:28] Launched simulation PARSEC freqmine with PID 43924
+[2025-04-20 12:40:29] Simulation with PID 43924 completed. Exit code: 0
+[2025-04-20 12:40:29] Running command: ./hw4runscript PARSEC streamcluster SHiP
+[2025-04-20 12:40:29] Launched simulation PARSEC streamcluster with PID 43949
+[2025-04-20 12:41:15] Simulation with PID 43132 completed. Exit code: 0
+[2025-04-20 12:41:15] Running command: ./hw4runscript PARSEC swaptions SHiP
+[2025-04-20 12:41:15] Launched simulation PARSEC swaptions with PID 44423
+[2025-04-20 12:41:32] Simulation with PID 43538 completed. Exit code: 0
+[2025-04-20 12:41:32] Running command: ./hw4runscript PARSEC x264 SHiP
+[2025-04-20 12:41:32] Launched simulation PARSEC x264 with PID 44618
+[2025-04-20 12:41:42] Simulation with PID 43301 completed. Exit code: 0
+[2025-04-20 12:42:32] Simulation with PID 44423 completed. Exit code: 0
+[2025-04-20 12:42:43] Simulation with PID 43949 completed. Exit code: 0
+[2025-04-20 12:43:59] Simulation with PID 43077 completed. Exit code: 0
+[2025-04-20 12:44:16] Simulation with PID 44618 completed. Exit code: 0
+[2025-04-20 12:44:28] Simulation with PID 43076 completed. Exit code: 0
+[2025-04-20 12:46:00] Simulation with PID 43088 completed. Exit code: 0
+[2025-04-20 12:51:36] Simulation with PID 43086 completed. Exit code: 0
+[2025-04-20 12:57:09] Simulation with PID 43079 completed. Exit code: 0
+[2025-04-20 13:00:24] Simulation with PID 43081 completed. Exit code: 0
+[2025-04-20 13:01:15] Simulation with PID 43078 completed. Exit code: 0
+[2025-04-20 13:04:28] Simulation with PID 43083 completed. Exit code: 0
+[2025-04-20 13:06:29] Simulation with PID 43087 completed. Exit code: 0
+[2025-04-20 13:07:04] Simulation with PID 43080 completed. Exit code: 0
+[2025-04-20 13:07:04] All simulations finished successfully!

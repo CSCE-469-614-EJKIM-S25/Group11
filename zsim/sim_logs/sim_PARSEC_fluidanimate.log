@@ -1,0 +1,1 @@
+./build/opt/zsim configs/project/SHiP/fluidanimate_8c_simlarge.cfg > outputs/project/SHiP/fluidanimate_8c_simlarge/fluidanimate.log 2>&1

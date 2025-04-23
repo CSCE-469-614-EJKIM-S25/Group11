@@ -1,0 +1,1 @@
+./build/opt/zsim configs/project/SHiP/blackscholes_8c_simlarge.cfg > outputs/project/SHiP/blackscholes_8c_simlarge/blackscholes.log 2>&1

@@ -1,0 +1,1 @@
+./build/opt/zsim configs/project/SHiP/milc.cfg > outputs/project/SHiP/milc/milc.log 2>&1

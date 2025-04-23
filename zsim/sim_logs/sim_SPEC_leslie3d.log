@@ -1,0 +1,1 @@
+./build/opt/zsim configs/project/SHiP/leslie3d.cfg > outputs/project/SHiP/leslie3d/leslie3d.log 2>&1

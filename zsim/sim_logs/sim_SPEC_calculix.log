@@ -1,0 +1,1 @@
+./build/opt/zsim configs/project/SHiP/calculix.cfg > outputs/project/SHiP/calculix/calculix.log 2>&1

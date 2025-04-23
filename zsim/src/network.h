@@ -32,17 +32,17 @@
  * This is a basic model that should be extended as appropriate.
  */
 
+#include <cstdint>
 #include <string>
 #include <unordered_map>
 
 class Network {
-    private:
-        std::unordered_map<std::string, uint32_t> delayMap;
+private:
+  std::unordered_map<std::string, uint32_t> delayMap;
 
-    public:
-        explicit Network(const char* filename);
-        uint32_t getRTT(const char* src, const char* dst);
+public:
+  explicit Network(const char *filename);
+  uint32_t getRTT(const char *src, const char *dst);
 };
 
-#endif  // NETWORK_H_
-
+#endif // NETWORK_H_

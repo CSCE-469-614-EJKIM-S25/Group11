@@ -1,0 +1,1 @@
+./build/opt/zsim configs/project/SHiP/bzip2.cfg > outputs/project/SHiP/bzip2/bzip2.log 2>&1

@@ -2,6 +2,6 @@ build/
 outputs/hw2
 outputs/hw4
 src/.vscode/
-.sconsign.dblite
 benchADM.par
 hw4runscript.log
+./sim_logs/

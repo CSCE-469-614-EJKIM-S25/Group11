@@ -1,0 +1,1 @@
+./build/opt/zsim configs/project/SHiP/libquantum.cfg > outputs/project/SHiP/libquantum/libquantum.log 2>&1

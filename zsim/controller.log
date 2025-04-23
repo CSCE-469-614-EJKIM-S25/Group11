@@ -1,0 +1,64 @@
+[2025-04-23 01:54:28] Running command: ./projectrunscript SPEC bzip2 SHiP
+[2025-04-23 01:54:28] Launched simulation SPEC bzip2 with PID 25437
+[2025-04-23 01:54:28] Running command: ./projectrunscript SPEC gcc SHiP
+[2025-04-23 01:54:28] Launched simulation SPEC gcc with PID 25438
+[2025-04-23 01:54:28] Running command: ./projectrunscript SPEC mcf SHiP
+[2025-04-23 01:54:28] Launched simulation SPEC mcf with PID 25439
+[2025-04-23 01:54:28] Running command: ./projectrunscript SPEC hmmer SHiP
+[2025-04-23 01:54:28] Launched simulation SPEC hmmer with PID 25440
+[2025-04-23 01:54:28] Running command: ./projectrunscript SPEC sjeng SHiP
+[2025-04-23 01:54:28] Launched simulation SPEC sjeng with PID 25441
+[2025-04-23 01:54:28] Running command: ./projectrunscript SPEC libquantum SHiP
+[2025-04-23 01:54:28] Launched simulation SPEC libquantum with PID 25442
+[2025-04-23 01:54:28] Running command: ./projectrunscript SPEC xalan SHiP
+[2025-04-23 01:54:28] Launched simulation SPEC xalan with PID 25443
+[2025-04-23 01:54:52] Simulation with PID 25437 completed. Exit code: 0
+[2025-04-23 01:54:52] Running command: ./projectrunscript SPEC milc SHiP
+[2025-04-23 01:54:52] Launched simulation SPEC milc with PID 25650
+[2025-04-23 01:54:52] Simulation with PID 25650 completed. Exit code: 112
+[2025-04-23 01:54:52] Running command: ./projectrunscript SPEC cactusADM SHiP
+[2025-04-23 01:54:52] Launched simulation SPEC cactusADM with PID 25654
+[2025-04-23 01:57:41] Simulation with PID 25439 completed. Exit code: 0
+[2025-04-23 01:57:41] Running command: ./projectrunscript SPEC leslie3d SHiP
+[2025-04-23 01:57:41] Launched simulation SPEC leslie3d with PID 26718
+[2025-04-23 01:57:41] Simulation with PID 26718 completed. Exit code: 112
+[2025-04-23 01:57:41] Running command: ./projectrunscript SPEC namd SHiP
+[2025-04-23 01:57:41] Launched simulation SPEC namd with PID 26722
+[2025-04-23 01:57:46] Simulation with PID 26722 completed. Exit code: 0
+[2025-04-23 01:57:46] Running command: ./projectrunscript SPEC soplex SHiP
+[2025-04-23 01:57:46] Launched simulation SPEC soplex with PID 26767
+[2025-04-23 01:58:25] Simulation with PID 25438 completed. Exit code: 0
+[2025-04-23 01:58:25] Running command: ./projectrunscript SPEC calculix SHiP
+[2025-04-23 01:58:25] Launched simulation SPEC calculix with PID 27013
+[2025-04-23 02:08:59] Simulation with PID 26767 completed. Exit code: 0
+[2025-04-23 02:08:59] Running command: ./projectrunscript SPEC lbm SHiP
+[2025-04-23 02:08:59] Launched simulation SPEC lbm with PID 31092
+[2025-04-23 02:10:52] Simulation with PID 25441 completed. Exit code: 0
+[2025-04-23 02:10:52] Running command: ./projectrunscript PARSEC blackscholes SHiP
+[2025-04-23 02:10:52] Launched simulation PARSEC blackscholes with PID 31971
+[2025-04-23 02:11:24] Simulation with PID 31971 completed. Exit code: 0
+[2025-04-23 02:11:24] Running command: ./projectrunscript PARSEC bodytrack SHiP
+[2025-04-23 02:11:24] Launched simulation PARSEC bodytrack with PID 32256
+[2025-04-23 02:13:11] Simulation with PID 32256 completed. Exit code: 0
+[2025-04-23 02:13:11] Running command: ./projectrunscript PARSEC canneal SHiP
+[2025-04-23 02:13:11] Launched simulation PARSEC canneal with PID 32934
+[2025-04-23 02:13:44] Simulation with PID 25440 completed. Exit code: 0
+[2025-04-23 02:13:44] Running command: ./projectrunscript PARSEC fluidanimate SHiP
+[2025-04-23 02:13:44] Launched simulation PARSEC fluidanimate with PID 33168
+[2025-04-23 02:14:07] Simulation with PID 32934 completed. Exit code: 0
+[2025-04-23 02:14:07] Running command: ./projectrunscript PARSEC streamcluster SHiP
+[2025-04-23 02:14:07] Launched simulation PARSEC streamcluster with PID 33335
+[2025-04-23 02:14:16] Simulation with PID 31092 completed. Exit code: 0
+[2025-04-23 02:14:16] Running command: ./projectrunscript PARSEC swaptions SHiP
+[2025-04-23 02:14:16] Launched simulation PARSEC swaptions with PID 33406
+[2025-04-23 02:14:21] Simulation with PID 25443 completed. Exit code: 0
+[2025-04-23 02:14:21] Running command: ./projectrunscript PARSEC x264 SHiP
+[2025-04-23 02:14:21] Launched simulation PARSEC x264 with PID 33453
+[2025-04-23 02:14:31] Simulation with PID 33168 completed. Exit code: 0
+[2025-04-23 02:15:02] Simulation with PID 33406 completed. Exit code: 0
+[2025-04-23 02:15:20] Simulation with PID 33335 completed. Exit code: 0
+[2025-04-23 02:16:41] Simulation with PID 33453 completed. Exit code: 0
+[2025-04-23 02:18:52] Simulation with PID 25654 completed. Exit code: 0
+[2025-04-23 02:23:54] Simulation with PID 25442 completed. Exit code: 0
+[2025-04-23 02:25:25] Simulation with PID 27013 completed. Exit code: 0
+[2025-04-23 02:25:25] All simulations finished successfully!

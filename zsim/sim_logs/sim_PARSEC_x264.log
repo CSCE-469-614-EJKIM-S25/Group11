@@ -1,0 +1,1 @@
+./build/opt/zsim configs/project/SHiP/x264_8c_simlarge.cfg > outputs/project/SHiP/x264_8c_simlarge/x264.log 2>&1
