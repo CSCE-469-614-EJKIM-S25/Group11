@@ -4,24 +4,25 @@
 #include "repl_policies.h" 
 
 #define SHCT_ENTRIES (1u << 14) // 16kb unsigned entries
-#define MAX_RRPV 3
+#define MAX_RRPV 3  // 2 bit srrip
 
 class SHiPReplPolicy : public ReplPolicy {
+    // line metadata
 struct lineMeta {
-    uint32_t sign; //signature 
-    bool outcome; 
+    uint32_t sign; //signature used when the line was inserted
+    bool reused; // 0 -> never reused, 1 -> reused
 };
-    uint8_t* shct;  // sign. 
+    uint8_t* shct;  // signature table 
     uint8_t* rrpv;  
     uint32_t numLines;
-    lineMeta* meta;
+    lineMeta* meta; // signature + outcome per line
 
-    uint32_t pendSign;   //sign. of the incoming line 
+    uint32_t pendSign;   //signature of the incoming line 
     uint8_t pendInsertRrpv; // what RRPV that line should start with
     
 public:
     
-SHiPReplPolicy(uint32_t numLines): numLines(numLines), pendSign(0), pendInsertRrpv(3) {
+SHiPReplPolicy(uint32_t numLines): numLines(numLines), pendSign(0), pendInsertRrpv(MAX_RRPV) {
     rrpv = gm_calloc<uint8_t>(numLines);
     meta = gm_calloc<lineMeta>(numLines);
     shct = gm_calloc<uint8_t>(SHCT_ENTRIES);
@@ -36,34 +37,34 @@ SHiPReplPolicy(uint32_t numLines): numLines(numLines), pendSign(0), pendInsertRr
     gm_free(shct);
 };
 
-void update(uint32_t id, const MemReq* req) { 
+void update(uint32_t id, const MemReq* req) override{ 
     if (rrpv[id] != 0)
         rrpv[id] = 0;
-    if (meta[id].outcome == false) // if the line was orginal false update it to reused
-        meta[id].outcome = true;
+    if (meta[id].reused == false) // if the line was orginal false update it to reused
+        meta[id].reused = true;
 }
 
 void replaced(uint32_t id) override {
     uint32_t oldSign = meta[id].sign;
-    if (oldSign) {
-        if (meta[id].outcome) {  // line was reused
+    if (oldSign != 0) {
+        if (meta[id].reused) {  // line was reused
             if (shct[oldSign] < 3) 
-                ++shct[oldSign]; // useful 
+                ++shct[oldSign]; // useful => increment
         } else {  // bad line
             if (shct[oldSign] > 0)       
-                --shct[oldSign]; // not useful
+                --shct[oldSign]; // not useful => decrement
         }
     }
-    // seed the fresh new inserted line
+    // seed the new inserted line
     rrpv[id] = pendInsertRrpv;
     meta[id].sign = pendSign;
-    meta[id].outcome = false;
+    meta[id].reused = false;
 }
 
 template <typename C> inline uint32_t rank(const MemReq* req, C cands) {
         pendSign = signature(req->lineAddr); // hash the signature from mem addr
         uint8_t counter = shct[pendSign] & 0x3;
-        pendInsertRrpv = (counter == 0 ? MAX_RRPV : 2);
+        pendInsertRrpv = (counter == 0 ? MAX_RRPV : 2);  //counter = 0 means never used before
 
         // old srrip, look for rrpv==3; else age & retry
         while (true) {
